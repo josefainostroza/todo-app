@@ -4,16 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header></header>
-    <main>
-      <!-- <img
-          class="image1"
-          src="./assets/images/"
-          alt=""
-        /> -->
+    <header class="header">
+      <h2 class="logo">T O D O</h2>
+      <!-- <label type="checkbox"></label>
+        <input type="checkbox" id="checkbox" /> -->
+      <img class="icon" src="./assets/image/icon-moon.svg" alt />
+    </header>
+    <main class="container">
+      <form class="formText">
+        <label for="labelTexts" class="labelText"></label>
+        <input
+          class="task"
+          id="task"
+          name="task"
+          type="text"
+          placeholder="Create a new todo..."
+        />
+      </form>
+      <div class="containerTasks">
+        <div class="flexCheckText">
+          <input class="checkbox" type="checkbox" />
+          <h2 class="h2">Make a todo app</h2>
+        </div>
+        <img class="cross" src="./assets/image/icon-cross.svg" alt />
+      </div>
+      <div class="footerTasks">
+        <p class="items">1 items left</p>
+        <a class="clear">Clear Completed</a>
+      </div>
+      <div class="optionsfilters">
+        <button id="all" class="all">All</button>
+        <button id="active" class="active">Active</button>
+        <button id="completed" class="completed">Completed</button>
+      </div>
     </main>
     <footer></footer>
     <script src="js/scripts.js"></script>

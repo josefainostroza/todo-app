@@ -5,22 +5,164 @@
 html {
   scroll-behavior: smooth;
 }
+
 img {
   display: block;
   max-width: 100%;
 }
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 ul {
   list-style: none;
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 body {
   margin: 0;
-  font-family: sans-serif;
-  color: aliceblue;
+  font-family: 'Josefin Sans';
+  color: #494C6B;
+  background-image: url("/assets/image/bg-mobile-light.jpg");
+  background-repeat: no-repeat;
+  padding: 24px;
+  background-color: #FAFAFA;
+
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.logo {
+  color: #ffffff;
+}
+
+.labelText {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #979797;
+}
+
+.task {
+  padding: 18px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+.icon {
+  width: 20px;
+}
+
+.formText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+
+}
+
+.h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.flexCheckText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.cross {
+  width: 12px;
+}
+
+.containerTasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 16px 20px;
+  width: 100%;
+  gap: 63px;
+  border-radius: 5px;
+
+
+}
+
+.items,
+.clear {
+  font-size: 12px;
+  color: #9495A5;
+}
+
+.footerTasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -16px;
+  gap: 100px;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 5px;
+  padding: 16px 20px 18px 20px;
+  border-top: 1px solid #E3E4F1;
+  box-shadow: 0px 35px 70px #C2C3D6;
+}
+
+.optionsfilters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px 80px;
+  border-top: 1px solid #E3E4F1;
+  box-shadow: 0px 35px 70px #C2C3D6;
+
+}
+
+.all,
+.active,
+.completed {
+  font-weight: 700;
+  color: #9495A5;
+  border: none;
+  background-color: transparent;
+}
+
+.select {
+  color: #3A7CFD;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
